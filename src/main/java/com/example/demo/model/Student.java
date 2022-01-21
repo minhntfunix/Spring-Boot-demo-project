@@ -44,11 +44,8 @@ public class Student {
 	
 	  
 	  @DateTimeFormat(pattern = "dd-MM-yyyy")
-	  @NotNull(message = "This field is required.")
-	
-	  
-	  @Column(name="date_of_birth")
-	  
+	  @NotNull(message = "This field is required.")	  
+	  @Column(name="date_of_birth")	  
 	  @Temporal(TemporalType.DATE) 
 	  private Date dob;
 	 
